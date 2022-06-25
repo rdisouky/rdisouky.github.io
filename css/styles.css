@@ -155,7 +155,8 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-}
+},
+
 
 abbr[title],
 abbr[data-bs-original-title] {
@@ -187,6 +188,8 @@ dl {
 ol ol,
 ul ul,
 ol ul,
+
+
 ul ol {
   margin-bottom: 0;
 }
@@ -235,7 +238,7 @@ sup {
 }
 
 a {
-  color: #1D809F;
+  color: black;
   text-decoration: underline;
 }
 a:hover {
@@ -311,6 +314,11 @@ caption {
   padding-bottom: 0.5rem;
   color: #6c757d;
   text-align: left;
+}
+
+
+.iconsize{
+  height: 110px;
 }
 
 th {
